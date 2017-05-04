@@ -11,7 +11,8 @@
     }
     a:hover {
       text-decoration: none;
+      color: red;
     }
     footer {
-      border-bottom: 2px dashed #000;
+      border-bottom: 2px dashed Coral;
     }
