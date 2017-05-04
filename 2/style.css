@@ -1,0 +1,17 @@
+    figcaption {
+      font-size: 1.2em;
+    }
+    ol {
+      text-align: left;
+      font-size: 1.2em;
+      color: DarkGreen;
+    }
+    a {
+      color: DarkGreen;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    footer {
+      border-bottom: 2px dashed #000;
+    }
