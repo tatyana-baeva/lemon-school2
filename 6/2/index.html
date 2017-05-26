@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework hover</title>
+	<style>
+<style>
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body {
+			font-size: 24px;
+			font-family: Times New Roman, Serif;
+		}
+		li {
+			list-style: none; 
+		}
+		.container {
+			width: 700px;
+			margin: 100px auto;
+		}
+		.item1::before {
+			content: "★";
+			padding-right: 4px;
+		}
+    .item2::before {
+			content: "❤";
+			padding-right: 4px;
+		}
+    .item3::before {
+			content: "☀";
+			padding-right: 4px;
+		}
+  	a:link {
+ 			color: #000; 
+      text-decoration: none;
+      position: relative;
+    }
+    a:visited {
+      color: #000;
+    }
+    a:hover {
+      color: #000; 
+      text-decoration: none;
+      position: relative;
+      margin-left: 2px;
+    }
+		a:link::after {
+		  content: '';
+		  position: absolute;
+		  bottom: 0;
+		  left: 1px; right: 1px;  
+		  border-bottom: 1px solid #000;
+		  width: 50%;
+		}
+		a:hover::before {
+			content: '';
+		  position: absolute;
+		  bottom: 0;
+		  left: 1px; right: 1px;  
+		  border-bottom: 1px solid #000;
+		  width: -50%;
+		}
+		a:active {
+		  color: #000; 
+		  border-bottom: 1px dashed;
+		}
+	</style>
+</head>
+<body>
+		<div class="container">
+			<ul class="form1">
+				<li class="item1"><a href="#">Я простая ссылка</a></li>
+				<li class="item1"><a href="#">А я ссылка с ховером</a></li>
+					<ul class="form2">
+						<li class="item2"><a href="#">Ещё одна ссылка уже во внутреннем списке</a></li>
+						<li class="item2"><a href="#">Ещё одна ссылка уже во внутреннем списке</a></li>
+						<li class="item2"><a href="#">Ещё одна ссылка уже во внутреннем списке</a></li>
+							<ul class="form3">
+								<li class="item3"><a href="#">Последняя ссылка в списке 3-го уровня</a></li>
+							</ul>
+						<li class="item2"><a href="#">Вернёмся назад</a></li>
+					</ul>
+				<li class="item1"><a href="#">И ещё назад</a></li>
+			</ul>
+		</div>
+</body>
+</html>
