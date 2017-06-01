@@ -1,0 +1,362 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-size: 16px;
+	width: 100%;
+	height: 100%;
+}
+.wrapall {
+  min-height: 100%;
+  padding-bottom: 70px;
+}
+.wrapper {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.header {
+	width: 100%;
+	height: 470px;
+	background-color: #69d2e7;
+	border-top: 5px solid #fa6900;
+}
+.header-logo {
+	margin-top: 40px;
+	margin-left: 101px;
+	position: relative;
+	cursor:pointer
+}
+.header-logo:before {
+	content: " ";
+	background-image: url(images/logo.png);
+	width: 50px;
+	height: 48px;
+	position: absolute;
+	top: 0px;
+	left: -61px;
+}
+.logo-text {
+	font-family: Arial, sans-serif;
+	font-size: 19.88px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+}
+p {
+	font-family: Arial, sans-serif;
+	font-size: 16.76px;
+	font-weight: regular;
+	color: #000;
+}
+h1 {
+	margin-top: 97px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 83,29px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header-slang {
+	margin-top: 16px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 31,23px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+.about {
+	width: 834px;
+	height: 286px;
+	background-color: #fff;
+	margin-bottom: -187px;
+	margin-top: -99px;
+	z-index: 5;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 7px;
+	display: block;
+	box-shadow: 0 0 15px rgba(0,0,0,.5);
+	position: relative;
+	z-index: 5;
+}
+h2 {
+	padding-top: 47px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	position: relative;
+	margin-bottom: 26px;
+}
+h2:after {
+	display: inline-block;
+	height: 1px;
+	content: " ";
+	text-shadow: none;
+	background-color: #d5d5d5;
+	width: 383px;
+	position: absolute;
+	top: 99px;
+	left: 226px;
+}
+.about p {
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	font-weight: regular;
+	color: #000;
+	min-width: 772px;
+	overflow: hidden;
+	padding: 29px;
+}
+.item {
+	height: 533px;
+	width: 100%;
+	background: #f1f1f1;
+}	
+.container_item {
+	position: relative;
+	display: inline;
+	height: 100%;
+	width: 1008px;
+}
+.atom {
+	float: left;
+	margin-left: 87px;
+	margin-right: 87px;
+	background-color: #fff;
+	height: 162px;
+	width: 162px;
+	border-radius: 7px;
+	text-align: center;
+	position: relative;
+	margin-top: 252px;
+	left: 97px;
+	padding: 40px;
+} 
+.madic {
+	float: left;
+	margin-left: 87px;
+	margin-right: 87px;
+	background-color: #fff;
+	height: 162px;
+	width: 162px;
+	border-radius: 7px;
+	text-align: center;
+	position: relative;
+	margin-top: 252px;
+	left: 97px;
+	padding: 40px;
+}
+.orbit {
+	float: left;
+	margin-left: 87px;
+	margin-right: 87px;
+	background-color: #fff;
+	height: 162px;
+	width: 162px;
+	border-radius: 7px;
+	text-align: center;
+	position: relative;
+	margin-top: 252px;
+	left: 97px;
+	padding: 40px;
+}
+ .item_p {
+	font: 24px Arial regular;
+	color: #000;
+	min-width: 220px;
+	overflow: hidden;
+	position: absolute;
+	bottom: -73px;
+	left: -15px;
+	margin-left: -20px;
+	text-align: center;
+}
+.contant {
+	width: 100%;
+	min-height: 533px;
+	background: linear-gradient(to right, #fa6900 55%, transparent 50%, #fff 100%);	
+}
+.img {
+	width: 50%;
+	height: 533px;
+	float: left;
+	background-color: #fff;
+	border-radius: 196px/533px;
+	-moz-border-radius: 196px/533px;
+	-webkit-border-radius: 196px/533px;
+}
+.contant1 {
+	float: left;
+	height: 100%;
+	width: 460px;
+	margin-top: 147px;
+	margin-left: 101px;
+	padding-right: 60px;
+}	
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #fff;
+}
+h4 {
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	font-weight: regular;
+	color: #fff;
+	padding-bottom: 28px;
+}
+p {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: regular;
+	color: #fff;
+	padding-top: 29px;
+}
+.history {
+	width: 100%;
+	height: 552px;
+	background-color: #f1f1f1;
+	display: inline-block;
+}
+.history-logo {
+	margin-top: 92px;
+	margin-left: 66px;
+	position: relative;
+}
+.history-logo:before {
+	content: " ";
+	background-image: url(images/logo.png);
+	width: 50px;
+	height: 48px;
+	position: absolute;
+	top: 0px;
+	left: -61px;
+}
+.container_history {
+	margin-left: 100px;
+	float: left;
+	width: 460px;
+	height: 100%;
+}
+.history-p1 {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: regular;
+	color: #000;
+	padding-top: 107px;
+}
+.history-p2 {
+	padding-top: 42px;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	font-weight: regular;
+	color: #000;
+}
+.history1 {
+	float: left;
+	width: 426px;
+	min-height: 552px;
+	box-sizing: border-box;
+}
+h5 {
+	font-family: Arial, sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #000;
+	padding-top: 93px;
+	padding-bottom: 45px;
+	padding-left: 170px;
+}
+.history-nav {
+	float: left;
+	width: 432px;
+	height: 426px;
+	margin-left: 170px;
+}
+h6 {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+.history-list-item p {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: regular;
+	color: #000;
+	padding-bottom: 23px;
+	overflow: hidden;
+}
+.history-list-item {
+	list-style-type: none;
+	margin-left: 124px;
+	position: relative;
+}
+.history-list-item:before {
+	content: " ";
+	background: url(images/orbit-link.png) no-repeat;
+	background-color: #fff;
+	width: 93px;
+	height: 93px;
+	position: absolute;
+	top: 0px;
+	left: -122px;
+	display: block;
+	box-shadow: 0 0 5px rgba(0,0,0,.5);
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #2f3642;
+	text-decoration: underline;
+}
+.footer {
+  clear: both;
+  margin-top: -68px;
+	height: 68px;
+	width: 100%;
+	background-color: #69d2e7;
+}
+.footer a {
+ text-decoration: none;
+ font-weight: regular;
+ color: #fff;
+ font: 14px Arial regular;
+}
+.footer a:after {
+ content: " |";
+}
+.footer a:last-child:after {
+ content: " ";
+}
+.footer_left {
+ float: left;
+ padding-left: 100px;
+ padding-top: 28px;
+ bottom: 0;
+}
+.footer_right {
+	float: left;
+	color: #fff;
+	font: 14px Arial regular;
+	padding-top: 28px;
+	margin-left: 570px;
+}
