@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Форма</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form method="post">
+  <h1>Fill the form</h1>
+  <div class="input-group">
+    <label for="name">Your Name</label>
+    <input type="text" placeholder="John" name="name" required>
+  </div>
+  <div class="input-group">
+    <label for="surname">Your Surname</label>
+    <input type="text" placeholder="Doe" name="surname" required>
+  </div>
+  <div class="input-group">
+    <label for="email">Your Email</label>
+    <input type="email" placeholder="mail@example.com" name="email" required>
+  </div>
+  <div class="input-group">
+    <label for="password">Your Password</label>
+    <input type="password" placeholder="Password" name="password" required>
+  </div>
+    <div class="input-group">
+    <label for="message">Few words about You</label>
+      <textarea name="message" placeholder="Im awesome!" maxlength="350"></textarea>
+  </div>
+    <div class="border-link">
+      <label for="country">Your Country</label>
+      <select name="country">
+        <option>Select country</option>
+        <option value="ua">Ukraine</option>
+        <option value="ua">USA</option>
+        <option value="ua">Australia</option>
+      </select>
+  </div>
+  <div class="border-link">
+    <p>Your gender</p>
+    <div class="radio-group">
+      <label>
+        <input type="radio" name="gender" value="male"> Male
+      </label>
+      <label>
+        <input type="radio" name="gender" value="female"> Female
+      </label>
+      <label>
+        <input type="radio" name="gender" value="other"> Other
+      </label>
+    </div>
+  </div>
+  <div>
+    <label>
+      <input type="checkbox" name="newsseller"> Subscribe to newsseller
+    </label>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
